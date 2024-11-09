@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>titulo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=devide-width, inicial-scale=1.0"> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+<header>
+    <h1> Bem vindo ao meu site! </h1>
+    <nav>
+        <ul>
+            <li><a href="#">Meu blog</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="conteudo">
+    <section class="sobremim">
+        <h2>Me chamo Maria Luiza <br> Estou no primeiro semestre de ADS </h2>
+    </section>
+    <section class="galeria">
+        <div class="imagem">
+            <img src="" alt="imagem 1">
+        </div>
+        <div class="imagem">
+            <img src="" alt="imagem 2">
+        </div>
+        <div class="imagem">
+            <img src="" alt="imagem 3">
+        </div>
+    </section>
+</section>
+<section class="contato">  
+    <h2>Entre em contato:</h2>
+    <form action="enviar_formulario.php" method="post">
+        <div class="form-group">
+            <label for="nome">Nome: *</label>
+            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+        </div>
+        <div class="form-group">
+            <label for="email">E-mail: *</label>
+            <input type="email" id="email" name="email" required placeholder="Digite seu email">
+        </div>
+        <div class="form-group">
+            <label for="telefone">Telefone: *</label>
+            <input type="tel" id="telefone" name="telefone" required placeholder="Digite seu telefone">
+        </div>
+        <div class="form-group">
+            <label for="mensagem">Mensagem: *</label>
+            <textarea id="mensagem" name="mensagem" required minlength="10" placeholder="Digite sua mensagem"></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy;2024 Maria Luiza</p>
+</footer>
+</body>
+</html>
